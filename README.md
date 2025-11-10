@@ -16,3 +16,27 @@
 2. Create a class `EventScheduler` with a list of `Event`. Add methods to `ScheduleEvent`, `CancelEvent`, and `GetUpcomingEvents`.
 3. Implement a feature to prevent double-booking, where two events are scheduled for the exact same time.
 4. Save the Events to persistent storage. Any persistant storage can be used.
+
+---
+
+## How to Build and Run
+
+### Prerequisites
+- .NET 5.0 SDK 
+
+### Build the Project
+```bash
+dotnet build
+```
+
+### Run the Project
+```bash
+dotnet run
+```
+
+This will execute both Exercise one and Exercise two, demonstrating:
+- LINQ queries and filtering logic
+- Event scheduling with double booking prevention
+- Data persistence (events saved to `events.json`)
+
+Rerunning the project will load previously saved events from `events.json`.
