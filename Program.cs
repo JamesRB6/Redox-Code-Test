@@ -6,7 +6,8 @@ namespace Redox_Code_Test
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Exercise 1:");
+            Exercise1.Run();
 
         }
     }
